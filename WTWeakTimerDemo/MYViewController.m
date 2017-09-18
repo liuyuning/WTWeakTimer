@@ -32,8 +32,9 @@
     [self.view addSubview:button];
     
     _timer = [NSTimer scheduledTimerWithTimeInterval:10 weakTarget:self selector:@selector(timerFire:) userInfo:@"TestVC-1" repeats:YES];
-    _timer = [NSTimer scheduledTimerWithTimeInterval:12 weakTarget:self selector:@selector(timerFire:) userInfo:@"TestVC-2" repeats:YES];
-    _timer = [NSTimer scheduledTimerWithTimeInterval:14 weakTarget:self selector:@selector(timerFire:) userInfo:@"TestVC-3" repeats:YES];
+    
+    [NSTimer scheduledTimerWithTimeInterval:12 weakTarget:self selector:@selector(timerFire:) userInfo:@"TestVC-2" repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:14 weakTarget:self selector:@selector(timerFire:) userInfo:@"TestVC-3" repeats:YES];
 }
 
 - (void)timerFire:(NSTimer *)timer {

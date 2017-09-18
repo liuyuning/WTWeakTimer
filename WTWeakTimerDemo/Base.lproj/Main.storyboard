@@ -25,25 +25,34 @@
                                 <rect key="frame" x="16" y="28" width="86" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.51073813999999995" green="0.96857047380000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Test1"/>
+                                <state key="normal" title="Test 1"/>
                                 <connections>
                                     <action selector="actionTest1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EtH-Tq-frq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00H-uY-RlR">
-                                <rect key="frame" x="16" y="98" width="86" height="48"/>
+                                <rect key="frame" x="16" y="84" width="86" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.51073813999999995" green="0.96857047380000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Test2"/>
+                                <state key="normal" title="Test 2"/>
                                 <connections>
                                     <action selector="actionTest2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pOs-Ix-AIL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5MM-tK-WbM">
-                                <rect key="frame" x="16" y="170" width="86" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbs-tb-Crw">
+                                <rect key="frame" x="16" y="140" width="86" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.51073813999999995" green="0.96857047380000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="TestVC"/>
+                                <state key="normal" title="Test 3"/>
+                                <connections>
+                                    <action selector="actionTest3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q7V-eD-Dr7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5MM-tK-WbM">
+                                <rect key="frame" x="16" y="196" width="86" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.51073813999999995" green="0.96857047380000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Test VC"/>
                                 <connections>
                                     <action selector="actionTestVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6YQ-nF-DL0"/>
                                 </connections>
